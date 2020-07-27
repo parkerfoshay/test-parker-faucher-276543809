@@ -160,7 +160,7 @@ As you can see, having hidden variables and references to them, you can conceal 
 
 **Hands-on activities / problems:**
 
-Problem #1 - I want you to define a function named <code>treasure</code> which has two variables inside of it. One of these variables needs to being assigned a string value which represents the loot inside the treasure. The second variable needs to be assigned a string value and this will represent the key to unlock the chest. Using a closure, you need to define a function inside of <code>treasure</code> which accepts an argument. This new function, will console.log the loot if argument matches the key variable and if they do not match it will console.log a denial message.
+Problem #1 - I want you to define a function named <code>treasure</code> which has two variables inside of it. One of these variables needs to be assigned a string value which represents the loot inside the treasure. The second variable needs to be assigned a string value and this will represent the key to unlock the chest. Using a closure, you need to define a function inside of <code>treasure</code> which accepts an argument. This new function, will console.log the loot if argument matches the key variable and if they do not match it will console.log a denial message.
 
 Hint: Refer to example #3.
 <pre><code>
