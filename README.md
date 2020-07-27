@@ -181,7 +181,7 @@ function calorieCounter(){
 var calCalc = calorieCounter()
 </code></pre>
 
-Problem #3 (Extra difficult) - this problem will require you to dig into your programming toolbox but I&#39;m confident you will be able to figure. I want you to define a function named <code>family</code>, inside of this function I want you to define an empty array. Next, I want you to create a function inside of <code>family</code>, this function will accept an argument. I want you to push the argument into the array we defined in the parent function. Next, you will create another function inside of <code>family</code>, this function will loop through the array we have defined in the parent function and console.log each member. Once finished, I want you to create your family using your new function <code>family</code>!
+Problem #3 (Extra difficult) - this problem will require you to dig into your programming toolbox but I&#39;m confident you will be able to figure it out. I want you to define a function named <code>family</code>, inside of this function I want you to define an empty array. Next, I want you to create a function inside of <code>family</code>, this function will accept an argument. I want you to push the argument into the array we defined in the parent function. Next, you will create another function inside of <code>family</code>, this function will loop through the array we have defined in the parent function and console.log each member. Once finished, I want you to create your family using your new function <code>family</code>!
 
 Hint: Array method .push. for… of loops.
 <pre><code>
@@ -227,7 +227,7 @@ Inside of our main function named <code>calorieCounter</code> we are going to de
 
 Now we need some way to change the value of <code>totalCalories</code> and we can do this with closures. I&#39;m going to define three functions inside of my <code>calorieCounter</code> named <code>addCalories</code>, <code>subtractCalories</code> and <code>clear</code>. Both <code>addCalories</code> and <code>subtractCalorie</code> accept an argument (<code>numberOfCalories</code>) which represents the amount of calories you want to add or subtract from your total. In the <code>addCalories</code> function we are going to add <code>totalCalories</code> to <code>numberOfCalories</code> using the <code>+=</code> operator. We will do the same with the <code>subtractCalories</code> function using the <code>-=</code> operator instead.
 
-Now for the final functioning named <code>clear</code>, this function will not accept any arguments and should return the <code>totalCalories</code> variable back to zero. We do this by simply taking the <code>totalCalories</code> and equaling to zero.
+Now for the final function named <code>clear</code>, this function will not accept any arguments and should return the <code>totalCalories</code> variable back to zero. We do this by simply taking the <code>totalCalories</code> and equaling it to zero.
 
 With all of our functions now completed, all we need to do is return them encased in curly brackets. Below we can now check if our work paid off.
 
