@@ -164,10 +164,10 @@ Problem #1 - I want you to define a function named <code>treasure</code> which h
 
 Hint: Refer to example #3.
 <pre><code>
-function trease(){
+function treasure(){
     
 }
-var myTreasure = trease()
+var myTreasure = treasure()
 </code></pre>
 
 Problem #2 - I want you to define a function named <code>calorieCounter</code> and inside of the function define a variable with the number 0 assigned to it. Inside of <code>calorieCounter</code> I want you to define 3 functions: <code>addCalories</code>, <code>subtractCalories</code>, and <code>clear</code>. <code>addCalories</code> accepts one argument and it needs to add that argument to the variable stored in its parent function. Do the same with the <code>subtractCalories</code> function but instead of adding you need to subtract. For the <code>clear</code> function, I want you to set the value of its parent function variable back to 0.
